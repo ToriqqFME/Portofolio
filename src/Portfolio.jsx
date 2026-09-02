@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Mail, ArrowUpRight, Terminal } from "lucide-react";
+import Profile from "./assets/Profile.png";
 
 const GithubIcon = () => (
   <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
@@ -23,7 +24,7 @@ const PROFILE = {
   email: "toriqqhabilfadhila21@gmail.com",
   github: "https://github.com/ToriqqFME",
   linkedin: "https://www.linkedin.com/in/toriqhabilfadhila21/",
-  photoUrl: "/src/assets/Profile.png",
+  photoUrl: Profile,
   bio: "Saya tertarik pada bagaimana sebuah sistem dirancang, bekerja, dan berkembang. Sebelum menulis solusi, saya terbiasa memahami masalah hingga ke akarnya - kemudian membangun solusi yang sederhana, terstruktur, dan siap berkembang.",
 };
 
