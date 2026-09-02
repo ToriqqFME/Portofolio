@@ -103,13 +103,13 @@ Follow the steps below to run the project locally.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+https://github.com/ToriqqFME/Portofolio.git
 ```
 
 Navigate into the project:
 
 ```bash
-cd YOUR-REPOSITORY
+cd Portofolio
 ```
 
 ### 2. Install Dependencies
