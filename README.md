@@ -374,7 +374,7 @@ If you would like to discuss a project, collaboration, or simply connect, feel f
 `https://toriqqfme.github.io/`
 
 **GitHub:**
-`https://github.com/ToriqqFME`
+`https://toriqqfme.github.io/Portofolio/`
 
 **LinkedIn:**
 `https://www.linkedin.com/in/toriqhabilfadhila21/`
