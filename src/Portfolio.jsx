@@ -1,9 +1,9 @@
 import { useEffect, useRef, useState } from "react";
 import { Mail, ArrowUpRight, Terminal } from "lucide-react";
 import Profile from "./assets/Profile.png";
-import AstroLearn from "../public/assets/AstroLearn.png";
-import POS from "../public/assets/POS.png";
-import HoryPrime from "../public/assets/HoryPrime.png";
+import AstroLearn from "../public/projects/AstroLearn.png";
+import POS from "../public/projects/POS.png";
+import HoryPrime from "../public/projects/HoryPrime.png";
 
 
 const GithubIcon = () => (
