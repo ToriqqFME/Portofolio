@@ -53,7 +53,7 @@ const PROJECTS = [
     title: "HoryPrime",
     desc: "Smart Hotel Booking & Management System untuk mengelola proses reservasi, data kamar, pelanggan, dan operasional hotel dalam satu platform terintegrasi.",
     tags: ["Laravel", "PostgreSQL"],
-    image: "/projects/Horyprime.png",
+    image: "/projects/HoryPrime.png",
     link: "https://github.com/ToriqqFME/HoryPrime---Smart-Hotel-Booking-Management-System",
   },
   {
