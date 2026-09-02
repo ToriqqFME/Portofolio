@@ -1,6 +1,10 @@
 import { useEffect, useRef, useState } from "react";
 import { Mail, ArrowUpRight, Terminal } from "lucide-react";
 import Profile from "./assets/Profile.png";
+import AstroLearn from "../public/assets/AstroLearn.png";
+import POS from "../public/assets/POS.png";
+import HoryPrime from "../public/assets/HoryPrime.png";
+
 
 const GithubIcon = () => (
   <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
@@ -46,7 +50,7 @@ const PROJECTS = [
     title: "POS - Kasir Kita",
     desc: "Aplikasi Point of Sale (POS) untuk membantu proses transaksi, pengelolaan produk, dan pemantauan operasional kasir dalam satu sistem.",
     tags: ["React", "Node.js", "PostgreSQL"],
-    image: "/projects/POS.png",
+    photoUrl: POS,
     link: "https://github.com/ToriqqFME/POS-KasirKita",
   },
   {
@@ -54,7 +58,7 @@ const PROJECTS = [
     title: "HoryPrime",
     desc: "Smart Hotel Booking & Management System untuk mengelola proses reservasi, data kamar, pelanggan, dan operasional hotel dalam satu platform terintegrasi.",
     tags: ["Laravel", "PostgreSQL"],
-    image: "/projects/HoryPrime.png",
+    photoUrl: HoryPrime,
     link: "https://github.com/ToriqqFME/HoryPrime---Smart-Hotel-Booking-Management-System",
   },
   {
@@ -62,7 +66,7 @@ const PROJECTS = [
     title: "AstroLearn",
     desc: "Platform pembelajaran yang dirancang untuk membantu pengguna mengakses materi, mengelola proses belajar, dan berinteraksi dengan konten edukasi dalam satu sistem.",
     tags: ["React", "Node.js", "PostgreSQL"],
-    image: "/projects/AstroLearn.png",
+    photoUrl: AstroLearn,
     link: "https://github.com/ToriqqFME/AstroLearn",
   },
 ];
