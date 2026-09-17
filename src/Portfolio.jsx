@@ -550,7 +550,7 @@ export default function Portfolio() {
             }}>
               <div style={{ order: i % 2 === 0 ? 1 : 2, overflow: "hidden", borderRadius: 8 }}>
                 <div className="project-card" style= {{
-                    height: 280,
+                    height: 300,
                     borderRadius: 8,
                     border: `1px solid ${colors.panelBorder}`,
                     background: `linear-gradient(135deg, ${colors.panel} 0%, #262C3A 100%)`,
