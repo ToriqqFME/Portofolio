@@ -2,8 +2,8 @@ import { useEffect, useRef, useState } from "react";
 import { Mail, ArrowUpRight, Terminal } from "lucide-react";
 import Profile from "./assets/Profile.png";
 import AstroLearn from "../public/projects/AstroLearn.png";
-import POS from "../public/projects/POS.png";
-import HoryPrime from "../public/projects/HoryPrime.png";
+import KelanaCoffe from "../public/projects/KelanaCoffe.png";
+import LifeOS from "../public/projects/LifeOS.png";
 
 const GithubIcon = () => (
   <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
@@ -45,20 +45,20 @@ const SKILLS = [
 
 const PROJECTS = [
   {
-    id: "01",
-    title: "POS - Kasir Kita",
-    desc: "Aplikasi Point of Sale (POS) untuk membantu proses transaksi, pengelolaan produk, dan pemantauan operasional kasir dalam satu sistem.",
-    tags: ["React", "Node.js", "PostgreSQL"],
-    image: POS,
-    link: "https://github.com/ToriqqFME/POS-KasirKita",
+      id: "01",
+      title: "KelanaCoffe",
+      desc: "Sistem POS SaaS untuk membantu warung kopi mengelola transaksi, produk, inventory, dan laporan operasional dalam satu platform terintegrasi.",
+      tags: ["Laravel", "Blade", "Tailwind CSS", "MySQL"],
+      image: KelanaCoffe,
+      link: "https://github.com/ToriqqFME/KelanaCoffe",
   },
   {
     id: "02",
-    title: "HoryPrime",
-    desc: "Smart Hotel Booking & Management System untuk mengelola proses reservasi, data kamar, pelanggan, dan operasional hotel dalam satu platform terintegrasi.",
-    tags: ["Laravel", "PostgreSQL"],
-    image: HoryPrime,
-    link: "https://github.com/ToriqqFME/HoryPrime---Smart-Hotel-Booking-Management-System",
+    title: "LifeOS",
+    desc: "Personal Productivity & Life Management Platform untuk membantu mengelola tugas, goals, habits, jadwal, dan perkembangan diri dalam satu platform terintegrasi.",
+    tags: ["React", "Node.js", "MySQL"],
+    image: LifeOS,
+    link: "https://github.com/ToriqqFME/LifeOS",
   },
   {
     id: "03",
